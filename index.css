@@ -1,8 +1,15 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
 ul {
   list-style: none;
   text-align: left;
 }
-
+#white h3 {
+  color: goldenrod;
+}
 #yellow {
   color: #d9ee6b;
 }
@@ -10,12 +17,6 @@ ul {
 #view {
   width: 100vw;
   height: 100vh;
-}
-
-.border {
-  border-left: 250px;
-  border-right: 25px;
-  border-radius: 10px;
 }
 
 #text {
@@ -39,6 +40,7 @@ button {
   color: #d8ffff;
   border-color: #bfdf32;
   background-color: #bfdf32;
+  outline: none;
 }
 
 h2 {
@@ -47,26 +49,23 @@ h2 {
 
 #white {
   background-color: #ffffff;
-  padding-top: 1em;
-  padding-left: 10em;
-  padding-right: 10em;
-  padding-bottom: 1em;
 }
 
 #right {
   float: right;
   width: auto;
   background-color: #4abebd;
-  padding-top: 2em;
-  padding-right: 9.85em;
-  padding-left: 0.59em;
-  padding-bottom: 0.3em;
 }
 
 #left {
   float: left;
-  padding-top: 2em;
-  padding-right: 1.39em;
-  padding-left: 10em;
-  padding-bottom: 2em;
+}
+.dollors {
+  color: red;
+  font-size: 2rem;
+}
+.dollors span {
+  color: grey;
+  font-size: 1rem;
+  vertical-align: middle;
 }
