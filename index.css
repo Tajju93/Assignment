@@ -3,15 +3,10 @@
   margin: 0px;
   box-sizing: border-box;
 }
+
 ul {
   list-style: none;
   text-align: left;
-}
-#white h3 {
-  color: goldenrod;
-}
-#yellow {
-  color: #d9ee6b;
 }
 
 #view {
@@ -19,7 +14,7 @@ ul {
   height: 100vh;
 }
 
-#text {
+.text {
   font-family: sans-serif;
   font-size: 25px;
 }
@@ -28,11 +23,6 @@ ul {
   background-color: #2ab0af;
 }
 
-span {
-  color: #98e3e8;
-  margin-left: 1em;
-  line-height: -1px;
-}
 button {
   width: 350px;
   height: 50px;
@@ -45,27 +35,75 @@ button {
 
 h2 {
   color: #2da09b;
+  padding-bottom: 1em;
+  padding-top: 1em;
 }
 
-#white {
+.white {
   background-color: #ffffff;
+  width: 100vw;
+  height: 50vh;
+  padding-left: 2em;
 }
 
-#right {
+.white h3 {
+  color: #d9ee6b;
+  padding-bottom: 1em;
+}
+.white p {
+  color: #dbe0e6;
+  padding-bottom: 0.5em;
+}
+
+.right {
   float: right;
   width: auto;
   background-color: #4abebd;
+  width: 50vw;
+  height: 50vh;
+  padding-left: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
-#left {
+.right ul {
+  color: #98e3e8;
+}
+
+.right h3 {
+  color: #e7ffff;
+  padding-bottom: 1em;
+}
+
+.left {
   float: left;
+  width: 50vw;
+  height: 50vh;
+  background-color: #2ab0af;
+  padding-left: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
-.dollors {
-  color: red;
+
+.left h3 {
+  color: #d8ffff;
+  padding-bottom: 1em;
+}
+
+.p {
+  color: #d8ffff;
   font-size: 2rem;
+  padding-bottom: 1em;
 }
-.dollors span {
-  color: grey;
+
+.p span {
+  color: #98e3e8;
   font-size: 1rem;
-  vertical-align: middle;
+  vertical-align: center;
+  margin-left: 1em;
+}
+
+.plain {
+  color: white;
+  padding-bottom: 1em;
 }
